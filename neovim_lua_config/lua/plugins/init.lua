@@ -14,7 +14,13 @@ require("packer").startup(function(use)
   use({"talha-akram/noctis.nvim"})
   use({"sainnhe/gruvbox-material"})
   use({"bfrg/vim-cpp-modern"})
+  use({"shaunsingh/solarized.nvim"})
   use({"shaunsingh/nord.nvim"})
+  use({"altercation/vim-colors-solarized"})
+  use({"svrana/neosolarized.nvim"})
+  use({"tjdevries/colorbuddy.nvim"})
+  use({"lifepillar/vim-solarized8"})
+  use({"craftzdog/solarized-osaka.nvim"})
 
   use({"octol/vim-cpp-enhanced-highlight", ft = { 'c', 'cpp' }})
 
@@ -33,6 +39,8 @@ require("packer").startup(function(use)
       'nvim-tree/nvim-web-devicons', -- optional
     },
   }
+
+  use('rhysd/vim-clang-format')
 
   use('lukas-reineke/indent-blankline.nvim')
 

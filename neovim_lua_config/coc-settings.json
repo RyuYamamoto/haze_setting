@@ -1,8 +1,12 @@
 {
+  "coc.preferences.formatOnSaveFiletypes": [
+    "cpp"
+  ],
+  "coc.preferences.snippet.enable": false,
   "inlayHint.enable": false,
   "languageserver": {
     "ccls": {
-      "command": "ccls",
+      "command": "clangd",
       "filetypes": [
         "c",
         "cpp"
@@ -75,5 +79,5 @@
         ]
       }
     }
-  }
+  },
 }
